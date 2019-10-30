@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Business of Mindfulness Conference</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+      
+   
+    
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="#">Conference</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="https://oberon-anagram.codio.io/Swathi/about.html">About</a></li>
+								<li><a href="#">The Conference</a></li>
+								<li><a href="https://oberon-anagram.codio.io/Swathi/registration.html">Registration</a></li>
+                <li><a href="#">Speakers</a></li>
+								<li><a href="#">PastEvents</a></li>
+								<li><a href="#">Schedule</a></li>
+								<li><a href="#">Chat</a></li>                 
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="https://www.google.com">
+											<h3>Sign Up</h3>
+											<p>Your Login Just Few Clicks Away </p>  
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>SignIn</h3>
+											<p>If Your Already User </p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Forgot Password</h3>
+											<p>Having Trouble In Login </p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>More Info</h3>
+											<p>Click here for more info</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions vertical">
+									<li><a href="https://oberon-anagram.codio.io/Swathi/registration.html" class="button big fit">Log In</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Wel-come to the World Business</a></h2>
+										<p>Amibition is the first step towards Success</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">Jul 11, 2019</time>
+										<a href="#" class="author"><span class="name">Swati Jangala</span><img src="images/avatar.jpg" alt="" /></a>
+									</div>
+								</header>
+								<a href="#" class="image featured"><img src="images/img123.jpg" alt="" /></a>
+								<p>SNHU is hosting The Business of Mindfulness Conference. The conference is a two day event, and is run every other month. Admission to the conference is free, but the number of people that can attend each event is limited due to space. Small breakout sessions can hold 20 people, keynotes can hold 200, and the lunches can hold 125. This means that interested individuals need to be registered as attending the event.This website must provide the needed information and functionality for users to register themselves as attending the sessions of their choosing. Registered users will need a printout of their confirmation, which will contain a control number to ensure that the number of people at these events remains at acceptable levels. Volunteers will check in attendants at the building entrance utilizing tablets. Website users will also only register for single events, not for the whole series.</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="#" class="button big">Continue Reading</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon fa-heart">28</a></li>
+										<li><a href="#" class="icon fa-comment">128</a></li>
+									</ul>
+								</footer>
+							</article>
+					</div>
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+
+						<!-- Intro -->
+							<section id="intro">
+								<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
+								<header>
+									<h2>The Business of Mindfulness Conference</h2>
+								<!--<p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>-->
+								</header>
+							</section>
+
+						<!-- Mini Posts -->
+							<section>
+								<div class="mini-posts">
+
+									<!-- Mini Post -->
+										<article class="mini-post">
+											<header>
+												<h3><a href="#">Vitae sed condimentum</a></h3>
+												<time class="published" datetime="2015-10-20">October 20, 2015</time>
+												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+											</header>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+										</article>
+
+									<!-- Mini Post -->
+										<article class="mini-post">
+											<header>
+												<h3><a href="#">Rutrum neque accumsan</a></h3>
+												<time class="published" datetime="2015-10-19">October 19, 2015</time>
+												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+											</header>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+										</article>
+
+									<!-- Mini Post -->
+										<article class="mini-post">
+											<header>
+												<h3><a href="#">Odio congue mattis</a></h3>
+												<time class="published" datetime="2015-10-18">October 18, 2015</time>
+												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+											</header>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+										</article>
+
+									<!-- Mini Post -->
+										<article class="mini-post">
+											<header>
+												<h3><a href="#">Enim nisl veroeros</a></h3>
+												<time class="published" datetime="2015-10-17">October 17, 2015</time>
+												<a href="#" class="author">
+                          <img src="images/avatar.jpg" alt="" /></a>
+											</header>
+											<a href="#" class="image">
+                        <iframe src="https://calendar.google.com/calendar/embed? src=https://calendar.google.com/calendar/r/week/2019/7/31" style="border: 0" width="400" height="400" frameborder="0" scrolling="no"></iframe>
+                       </a>
+										</article>
+
+								</div>
+							</section>
+
+						<!-- About -->
+							<section class="blurb">
+								<h2>About </h2>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod amet placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at phasellus sed ultricies.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</section>
+
+						<!-- Footer -->
+							<section id="footer">
+								<ul class="icons">
+									<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
+									<li><a href="#" class="fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+							</section>
+
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

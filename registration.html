@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    
+		<title>Login</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+     <meta name="description" content="CONFERENCE REGISTRATION PROCESS" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    
+    <script>
+       function validateForm() {
+         //alert('validateForm calling...');
+            var x = document.forms["myForm"]["FirstName"].value;
+            var y = document.forms["myForm"]["LastName"].value;
+            var e = document.forms["myForm"]["Email_ID"].value;
+            var ph = document.forms["myForm"]["PhoneNumber"].value;
+            if (x == null || x == ""  ){
+            alert("Enter  FirstName");
+              return false;
+            }else if (  y == null || y == ""){
+            alert("Enter  LastName");
+              return false;
+            }else if (  e == null || e == ""){
+            alert("Enter  EmailID");
+              return false;
+            }else if (  !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(e))){
+            alert("Enter Valid Email Address");
+              return false;
+            }else if (  ph == null || ph == ""){
+             alert("Enter  PhoneNumber");
+              return false;
+            }else if (  !( ph.match(/^\d{10}$/))){
+             alert("Enter  valid PhoneNumber");
+              return false;
+            }
+        }
+    </script>
+	</head>
+	<body>
+       
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Conference</h1>
+						<nav class="links">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="the-conference.html">The Conference</a></li>
+								<li><a href="registration.html">Registration</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+								<li><a href="pastevents.html">PastEvents</a></li>
+						                
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="www.snhu.edu">
+											<h3>Sign Up</h3>
+											<p>Your Login Just Few Clicks Away </p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>SignIn</h3>
+											<p>If Your Already User </p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Forgot Password</h3>
+											<p>Having Trouble In Login </p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>More Info</h3>
+											<p>Click here for more info</p>
+										</a>
+									</li>
+                  <li>
+										<a href="Home.html">
+											<h3>Home</h3>
+											<p>Click here for more info</p>
+										</a>
+									</li>
+											
+                  <li>
+										<a href="about.html">
+											<h3>About</h3>
+											<p>Click here for more info</p>
+										</a>
+									</li>
+                  <li>
+										<a href="Conference.html">
+											<h3>Conference</h3>
+											<p>Click here for more info</p>
+										</a>
+									</li>
+                  <li>
+										<a href="Registration.html">
+											<h3>Registration</h3>
+											<p>Click here for more info</p>
+										</a>
+									</li>
+                  <li>
+										<a href="Speakers.html">
+											<h3>Speakers</h3>
+											<p>Click here for more info</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions vertical">
+									<li><a href="#" class="button big fit">Log In</a></li>
+								</ul>
+							</section>
+					</section>
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+        </section>
+
+						<!-- Intro -->
+							<section id="intro">
+								<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
+                
+									<!-- Post -->
+                    <article class="post">
+								<header>
+									<div class="title">
+                   <h3>Conference Online Registration</h3> 
+                    <h4>Please fill in the form below. We'll contact you as soon as possible</h4>
+							    </div>
+								</header>    
+
+<div>
+      <form  method ="post" action= "Register.php"  name="myForm" onsubmit = "return validateForm()" >
+
+   
+    <label for="Email_ID">First Name</label>
+    <input type="text" name="FirstName" id="FirstName"  />
+        
+    <label for="Email_ID">Last Name</label>
+    <input type="text" name="LastName" id="LastName"  />
+    <label for="Email_ID">Email_ID</label>
+        
+    <input type="text" id="Email_ID" name="Email_ID" placeholder="Email_ID..">
+    <label for="Phone Number">Phone Number</label>
+    <input type="text" id="PhoneNumber"  name="PhoneNumber" placeholder="Phone Number.."    
+       title="Phone number with 7-9 and remaing 9 digit with 0-9">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="state">state</label>
+    <select id="state" name="state">
+      <option value="NH">NH</option>
+      <option value="MA">MA</option>
+      <option value="LA">LA</option>
+      <option value="CA">CA</option>
+      <option value="TX">TX</option>
+      <option value="NY">NY</option>
+    </select>
+    <label for="Zipcode">Zipcode</label>
+    <input type="text" id="Zipcode" name="Zipcode" placeholder="Zipcode..">
+     <label for="Day 1 Agenda"> Day 1 Agenda</label>
+    <label for="Session-1(9:30am-12:00pm)"> Session-1(9:30am-12:00pm)</label>
+    <select id="Select Event" name="SelectEvent1">
+      <option value="Select Event">Select Event</option>
+      <option value="Every day Ease Mindfully moving from burnout to balance">Every day Ease Mindfully moving from burnout to balance</option>
+      <option value="Mindfulness in Regroup and Refocus for Success">Mindfulness in Regroup and Refocus for Success</option>
+      <option value="The power of Moments">The Power of Moments</option>
+      <option value="Mindfulness in Sport">Mindfulness in Sport</option>
+             </select>
+        <label for="Lunch Break(12:00pm-2:00pm)"> Lunch Break(12:00pm-2:00pm)</label>
+    <select id="Select" name="SelectEvent2">
+      <option value="Select">Select</option>
+      <option value="Attend">Attend</option>
+      <option value="Do Not Attend">Do Not Attend</option>
+      </select>
+    <label for="KeyNote Speech(2:00pm-3:00pm)"> KeyNote Speech(2:00pm-3:00pm)</label>
+    <select id="Select" name="SelectEvent3">
+      <option value="Select">Select</option>
+      <option value="Attend">Attend</option>
+      <option value="Do Not Attend">Do Not Attend</option>
+      </select>
+    <label for="Session-2(3:00pm-5:00pm)"> Session-2(3:00pm-5:00pm)</label>
+    <select id="Select Event" name="SelectEvent4">
+      <option value="Select Event">Select Event</option>
+      <option value="Relaxation and Meditation in Yoga">Relaxation and Meditation in Yoga</option>
+      <option value="Mindfulness in Teaching">Mindfulness in Teaching</option>
+      <option value="Satya">Satya</option>
+      <option value="Social and Emotional Readiness">Social and Emotional Readiness</option>
+      </select>
+    
+    <label for="Day 2 Agenda"> Day 2 Agenda</label>
+<label for="Session-1(9:30am-12:00pm)"> Session-1(9:30am-12:00pm)</label>
+    <select id="Select Event" name="SelectEvent5">
+      <option value="Select Event">Select Event</option>
+      <option value="Stressful to Success">Stressful to Success</option>
+      <option value="Creating a Restorative Practice Culture">Creating a Restorative Practice Culture</option>
+      <option value="Postive thinking and mindfulness is key">Postive thinking and mindfulness is key</option>
+      <option value="Fulfilling Nutrition Food and mood">Fulfilling Nutrition Food and mood</option>
+             </select>
+        <label for="Lunch Break(12:00pm-2:00pm)"> Lunch Break(12:00pm-2:00pm)</label>
+    <select id="Select" name="SelectEvent6">
+      <option value="Select">Select</option>
+      <option value="Attend">Attend</option>
+      <option value="Do Not Attend">Do Not Attend</option>
+      </select>
+    <label for="KeyNote Speech(2:00pm-3:00pm)"> KeyNote Speech(2:00pm-3:00pm)</label>
+    <select id="Select" name="SelectEvent7">
+      <option value="Select">Select</option>
+      <option value="Attend">Attend</option>
+      <option value="Do Not Attend">Do Not Attend</option>
+      </select>
+    <label for="Session-2(3:00pm-5:00pm)"> Session-2(3:00pm-5:00pm)</label>
+    <select id="Select Event" name="SelectEvent8">
+      <option value="Select Event">Select Event</option>
+      <option value="EQ/Social Intelligence">EQ/Social Intelligence</option>
+      <option value="Business and Retension">Business and Retension</option>
+      <option value="Welness and Whole Being">Welness and Whole Being</option>
+      <option value="Communicating Mindfully">Communicating Mindfully</option>
+      </select>
+        <input type="submit" value="Submit">
+  </form>
+</div>
+ 
+				<!-- Footer -->
+                      
+							<section id="footer">
+								<ul class="icons">
+									<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
+									<li><a href="#" class="fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+							</section>
+                     
+            </article>
+            </section>
+   
+        			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+    
+  </body>
+</html>
+ 
